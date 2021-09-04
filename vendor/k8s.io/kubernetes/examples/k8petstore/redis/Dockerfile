@@ -19,7 +19,7 @@
 #
 
 # Pull base image.
-FROM redis
+FROM redis:6.2-buster
 
 # Define mountable directories.
 VOLUME ["/data"]
