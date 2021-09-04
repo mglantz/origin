@@ -22,7 +22,7 @@
 #
 # Just a stub. 
 
-FROM redis
+FROM redis:6.2-buster
 
 ADD run.sh /run.sh
 
