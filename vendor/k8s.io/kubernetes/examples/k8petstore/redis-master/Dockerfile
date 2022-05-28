@@ -22,7 +22,7 @@
 #
 # Just a stub. 
 
-FROM redis
+FROM redis:7-bullseye
 
 ADD etc_redis_redis.conf /etc/redis/redis.conf
 
