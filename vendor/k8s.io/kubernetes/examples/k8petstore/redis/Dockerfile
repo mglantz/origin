@@ -19,7 +19,7 @@
 #
 
 # Pull base image.
-FROM redis
+FROM redis:7-bullseye
 
 # Define mountable directories.
 VOLUME ["/data"]
