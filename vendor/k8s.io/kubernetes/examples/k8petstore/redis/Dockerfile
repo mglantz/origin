@@ -19,7 +19,7 @@
 #
 
 # Pull base image.
-FROM redis
+FROM redis:7.2.3-bookworm
 
 # Define mountable directories.
 VOLUME ["/data"]
