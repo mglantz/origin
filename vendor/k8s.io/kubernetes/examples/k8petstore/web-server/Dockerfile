@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:latest
+FROM golang:1.22rc2-bookworm
 
 # Add source to gopath.  This is defacto required for go apps.
 ADD ./src /gopath/src/k8petstore
